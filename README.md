@@ -76,12 +76,140 @@ Created other schemas too
 ![image](https://github.com/user-attachments/assets/6ef9cc04-fe2c-4746-a475-65ef8116112c)
 
 
+Next step , we will create bronze tables based on Drivers.json and Results.json
+
+![image](https://github.com/user-attachments/assets/2e9eb260-e80a-4d92-9d94-4ba3b0a26cd3)
+
+
+![image](https://github.com/user-attachments/assets/6348d7ab-b8b0-43a4-a1d3-4871f9c29ae5)
+
+
+![image](https://github.com/user-attachments/assets/5b217f41-4c54-46dd-b9b9-ac73f10ff470)
+
+
+![image](https://github.com/user-attachments/assets/288bea12-e5dd-4319-af35-f441578eccf0)
+
+You can see table type is external
+
+![image](https://github.com/user-attachments/assets/467c4f27-492f-48c2-b15c-32e726c7a112)
+
+
+Just to make sure run with workflow adding Drop table command in code
+
+Results table also created in Bronze
+
+![image](https://github.com/user-attachments/assets/312d4208-e7d8-42f5-8efa-2613c17e5865)
+
+
+![image](https://github.com/user-attachments/assets/7520a206-8528-431f-b3d5-c23f888af704)
+
+
+Next step we will creating of Silver and Gold tables in managed locations in delta format
+
+
+Silver table got created and type is managed
+
+![image](https://github.com/user-attachments/assets/3782f7db-6e94-4236-9dbb-3252a6eb6737)
+
+![image](https://github.com/user-attachments/assets/d1e7794d-a287-4536-8434-18064f33207b)
+
+
+![image](https://github.com/user-attachments/assets/453738a9-8a1d-4d5c-9da4-2b6ba7298fdf)
 
 
 
+Meantime, please check delta table data stored in storage - Store
+
+![image](https://github.com/user-attachments/assets/7bb877b4-c2b2-4d16-9893-a41e5f25d44a)
 
 
 
+![image](https://github.com/user-attachments/assets/3fabffa0-50d4-4915-815a-3f61c1a62bca)
 
+
+Results table also created in Silver from Bronze
+
+![image](https://github.com/user-attachments/assets/da9e5bfb-9dc6-4aa8-a6b3-ecdd17b73622)
+
+
+![image](https://github.com/user-attachments/assets/b1d254f0-8808-47dc-9970-26555e66562a)
+
+
+![image](https://github.com/user-attachments/assets/55fa9485-8863-4bcc-9e1e-71c05c1bb619)
+
+
+![image](https://github.com/user-attachments/assets/3eb4ef4b-ab2b-414b-a5ea-8e6625419a1a)
+
+![image](https://github.com/user-attachments/assets/54124a07-5ca8-4d16-a883-86461134d59e)
+
+Next we will create a workflow - job to execute all notebooks
+
+
+![image](https://github.com/user-attachments/assets/57b79164-622b-4504-aac4-f868389e3c7c)
+
+
+![image](https://github.com/user-attachments/assets/4170791c-1e90-487b-962a-164247502cbf)
+
+
+![image](https://github.com/user-attachments/assets/790f980c-687a-4329-a684-89287e442736)
+
+
+All tasks are in place
+
+![image](https://github.com/user-attachments/assets/1c2b2376-ba87-4b5f-b4e3-40eb09bd068a)
+
+
+![image](https://github.com/user-attachments/assets/e18005e1-9b5c-417f-be97-cb1717a17578)
+
+Job Failed 
+
+![image](https://github.com/user-attachments/assets/cd84efee-3d69-4751-af56-bb10ba6ecb6c)
+
+
+Issue was with one syntax issue. It is fixed and running 
+
+Job got executed successfully
+
+![image](https://github.com/user-attachments/assets/92c35407-8197-4409-9522-26597962805d)
+
+
+You can see time line here
+
+![image](https://github.com/user-attachments/assets/4a30b7f2-d01d-45fb-af75-62cdd98e7016)
+
+![image](https://github.com/user-attachments/assets/edda14fe-4eca-4fb5-b1a2-874a356d2d1b)
+
+![image](https://github.com/user-attachments/assets/b7713f08-15de-4da0-9fe0-b1cc46b8a1bb)
+
+
+To see lineage
+
+![image](https://github.com/user-attachments/assets/8206be1d-8cf6-4a71-8f02-dba9d7d8b306)
+
+
+![image](https://github.com/user-attachments/assets/c404707a-3703-4b0d-92ba-ff6cf2a35482)
+
+Final result is captured in gold table
+
+![image](https://github.com/user-attachments/assets/a4275528-7e8d-4962-a60a-9c066542a71a)
+
+Scheduled job to run automatically
+
+![image](https://github.com/user-attachments/assets/f7f63441-f673-4b00-b9aa-6013320bebab)
+
+Job started at 1.30 CT
+
+![image](https://github.com/user-attachments/assets/a6c3e770-7efb-4e1a-ab0f-3dc73c248085)
+
+
+Final Result Once Again
+
+![image](https://github.com/user-attachments/assets/74818425-5f7d-452c-be6c-f477a4918115)
+
+
+
+Job ran successfully
+
+![image](https://github.com/user-attachments/assets/79348efd-45c1-4c5c-a5cc-ef0da7fdb56d)
 
 
