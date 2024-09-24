@@ -1,6 +1,8 @@
-# DatabricksUnityCatalog
+# Setting up workflow job in DataBricks to store aggregrated results in Delta table format using Medallion architecture with Unity Catalog 
 
-![image](https://github.com/user-attachments/assets/7a872315-446b-48b2-bda2-99223fa691cd)
+![image](https://github.com/user-attachments/assets/b46236da-2888-4da4-8035-2cb7ea7885f8)
+
+
 
 Before we start with this workflow using Unity Catalog
 
